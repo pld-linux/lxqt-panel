@@ -28,6 +28,7 @@ BuildRequires:	xorg-lib-libXcomposite-devel
 BuildRequires:	xorg-lib-libXcomposite-devel
 BuildRequires:	xorg-lib-libXdamage-devel
 BuildRequires:	xorg-lib-libXrender-devel
+BuildRequires:	xorg-lib-libxkbcommon-devel
 BuildRequires:	xz-devel
 Requires:	lxqt-common
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
