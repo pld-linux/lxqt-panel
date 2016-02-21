@@ -61,7 +61,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%{_sysconfdir}/qt5/lxqt/panel.conf
+%{_sysconfdir}/xdg/lxqt/panel.conf
 %attr(755,root,root) %{_bindir}/lxqt-panel
 %{_includedir}/lxqt/ilxqtpanel.h
 %{_includedir}/lxqt/ilxqtpanelplugin.h
