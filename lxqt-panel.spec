@@ -24,6 +24,7 @@ BuildRequires:	lm_sensors-devel >= 3.3.5
 BuildRequires:	lxqt-globalkeys-devel >= 0.7.0
 BuildRequires:	menu-cache-devel >= 0.3.3
 BuildRequires:	pulseaudio-devel
+BuildRequires:	xcb-util-devel
 BuildRequires:	xorg-lib-libXcomposite-devel
 BuildRequires:	xorg-lib-libXcomposite-devel
 BuildRequires:	xorg-lib-libXdamage-devel
