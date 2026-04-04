@@ -6,12 +6,12 @@
 Summary:	Main panel bar for LXQt desktop suite
 Summary(pl.UTF-8):	Główny panel dla środowiska graficznego LXQt
 Name:		lxqt-panel
-Version:	2.3.2
+Version:	2.3.3
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-panel/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	acb37b56e739f88689ed2818f8e36fef
+# Source0-md5:	d9c6105b2b2a6e4dbb5117c737ddd39d
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6Concurrent-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
