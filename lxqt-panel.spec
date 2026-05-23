@@ -6,12 +6,12 @@
 Summary:	Main panel bar for LXQt desktop suite
 Summary(pl.UTF-8):	Główny panel dla środowiska graficznego LXQt
 Name:		lxqt-panel
-Version:	2.3.3
-Release:	2
+Version:	2.4.0
+Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-panel/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	d9c6105b2b2a6e4dbb5117c737ddd39d
+# Source0-md5:	2bc9901d324e71589a50fffe21e85910
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6Concurrent-devel >= %{qtver}
 BuildRequires:	Qt6DBus-devel >= %{qtver}
@@ -22,13 +22,13 @@ BuildRequires:	cmake >= 3.18.0
 BuildRequires:	kf6-kwindowsystem-devel >= 6.0.0
 BuildRequires:	kp6-layer-shell-qt-devel >= 6.0.0
 BuildRequires:	libdbusmenu-lxqt-devel
-BuildRequires:	liblxqt-devel >= 2.3.0
+BuildRequires:	liblxqt-devel >= 2.4.0
 BuildRequires:	libstatgrab-devel
 BuildRequires:	libsysstat-devel >= 1.1.0
 BuildRequires:	libxcb-devel
 BuildRequires:	lm_sensors-devel >= 3.3.5
-BuildRequires:	lxqt-globalkeys-devel >= 2.3.0
-BuildRequires:	lxqt-menu-data >= 2.3.0
+BuildRequires:	lxqt-globalkeys-devel >= 2.4.0
+BuildRequires:	lxqt-menu-data >= 2.4.0
 BuildRequires:	pulseaudio-devel
 BuildRequires:	qt6-linguist >= %{qtver}
 BuildRequires:	wayland-devel
