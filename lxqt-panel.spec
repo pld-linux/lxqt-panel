@@ -7,7 +7,7 @@ Summary:	Main panel bar for LXQt desktop suite
 Summary(pl.UTF-8):	Główny panel dla środowiska graficznego LXQt
 Name:		lxqt-panel
 Version:	2.5.1
-Release:	1
+Release:	2
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-panel/releases/download/%{version}/%{name}-%{version}.tar.xz
@@ -20,6 +20,7 @@ BuildRequires:	Qt6Xml-devel >= %{qtver}
 BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	kf6-kwindowsystem-devel >= 6.0.0
+BuildRequires:	kf6-solid-devel >= 6.0.0
 BuildRequires:	kp6-layer-shell-qt-devel >= 6.0.0
 BuildRequires:	libdbusmenu-lxqt-devel
 BuildRequires:	liblxqt-devel >= 2.5.0
