@@ -7,7 +7,7 @@ Summary:	Main panel bar for LXQt desktop suite
 Summary(pl.UTF-8):	Główny panel dla środowiska graficznego LXQt
 Name:		lxqt-panel
 Version:	2.5.1
-Release:	2
+Release:	3
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-panel/releases/download/%{version}/%{name}-%{version}.tar.xz
@@ -131,6 +131,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/lxqt/panel
 %{_datadir}/lxqt/panel/qeyes-types
 %dir %{_datadir}/lxqt/translations/lxqt-panel
+%dir %{_datadir}/lxqt/translations/lxqt-panel/backlight
 %dir %{_datadir}/lxqt/translations/lxqt-panel/colorpicker
 %dir %{_datadir}/lxqt/translations/lxqt-panel/cpuload
 %dir %{_datadir}/lxqt/translations/lxqt-panel/customcommand
